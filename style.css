@@ -11122,6 +11122,7 @@ body {
   background-image: url("images/wano.avif");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top;
   background-attachment: fixed;
 }
 
