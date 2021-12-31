@@ -11161,6 +11161,8 @@ h1, .h1 {
 .skills {
   height: 150px;
   resize: none;
+  border: solid black 2px;
+  border-radius: 8px 8px 8px 8px;
 }
 
 /*# sourceMappingURL=style.css.map */
