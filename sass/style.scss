@@ -4,8 +4,7 @@ $light :#f6f6f6;
 @import "bootstrap/bootstrap.scss";
 
 body{
-    -webkit-box-shadow: -5px 4px 20px 6px #000000;
-    box-shadow: -5px 4px 20px 6px #000000;
+    
     // background: url('/images/kisspng-the-elder-scrolls-v-skyrim-dragonborn-bethesd-skyrim-fanart-5b563367d24a57.6829682215323759118614\ \(1\).png');
     // background-repeat: no-repeat;
     // background-size: cover;
@@ -56,6 +55,20 @@ h1{
 .description{
     resize: none;
     height: 220px;
+    border: solid black 2px;
+    border-radius: 8px 8px 8px 8px ;
+    font-size: 16px;
+}
+.talent{
+    resize: none;
+    height: 100px;
+    border: solid black 2px;
+    border-radius: 8px 8px 8px 8px ;
+    font-size: 16px;
+}
+.inventaire{
+    resize: none;
+    height: 150px;
     border: solid black 2px;
     border-radius: 8px 8px 8px 8px ;
     font-size: 16px;

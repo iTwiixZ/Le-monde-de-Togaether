@@ -11118,11 +11118,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  -webkit-box-shadow: -5px 4px 20px 6px #000000;
-  box-shadow: -5px 4px 20px 6px #000000;
-}
-
 h1, .h1 {
   font-family: "Pushster" !important;
   letter-spacing: 2px;
@@ -11168,6 +11163,22 @@ h1, .h1 {
 .description {
   resize: none;
   height: 220px;
+  border: solid black 2px;
+  border-radius: 8px 8px 8px 8px;
+  font-size: 16px;
+}
+
+.talent {
+  resize: none;
+  height: 100px;
+  border: solid black 2px;
+  border-radius: 8px 8px 8px 8px;
+  font-size: 16px;
+}
+
+.inventaire {
+  resize: none;
+  height: 150px;
   border: solid black 2px;
   border-radius: 8px 8px 8px 8px;
   font-size: 16px;
