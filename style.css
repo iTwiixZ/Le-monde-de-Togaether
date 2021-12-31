@@ -11119,7 +11119,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background: url("images/wano.png");
+  background-image: url("images/wano.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
