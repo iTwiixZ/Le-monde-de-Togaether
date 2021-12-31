@@ -5,10 +5,10 @@ $light :#f6f6f6;
 
 body{
     
-    // background: url('/images/kisspng-the-elder-scrolls-v-skyrim-dragonborn-bethesd-skyrim-fanart-5b563367d24a57.6829682215323759118614\ \(1\).png');
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-attachment: fixed;
+    background: url('/images/wano.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1{
@@ -40,6 +40,7 @@ h1{
     height: 65px;
     text-align: center;
     font-size: 22px;
+    
 }
 
 .card{
@@ -82,4 +83,8 @@ h1{
 #border{
     border: solid black 2px;
     border-radius: 15px;
+}
+
+h5{
+    color: black;
 }

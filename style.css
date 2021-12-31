@@ -11118,6 +11118,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background: url("/images/wano.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 h1, .h1 {
   font-family: "Pushster" !important;
   letter-spacing: 2px;
@@ -11191,6 +11198,10 @@ h1, .h1 {
 #border {
   border: solid black 2px;
   border-radius: 15px;
+}
+
+h5, .h5 {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
