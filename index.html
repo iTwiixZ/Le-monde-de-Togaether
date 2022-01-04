@@ -13,7 +13,7 @@
     <body>
         
         
-        <audio src="music/theme.mp3" controls autoplay></audio>
+        <audio id="music" src="music/theme.mp3" autoplay="autoplay" controls></audio>
         <!-- HEADER -->
         <header>
             <div class="container mt-4">
@@ -201,6 +201,9 @@
 
     </footer>
 
- 
+ <script>
+     var audio = document.getElementById('music');
+    audio.volume = 0.2;
+ </script> 
 </body>
 </html>
