@@ -11,7 +11,7 @@
         <title>Le monde de Togaether</title>
     </head>
     <body>
-        <iframe src="silence.mp3" id="audio" style="display:none"></iframe> 
+        
         <audio id="music" autoplay loop>
             <source src="music/theme.mp3" type="audio/mp3">
         </audio>
@@ -204,8 +204,13 @@
     </footer>
 
     <script>
-        var audio = document.getElementById('music');
+var audio = document.getElementById('music');
         audio.volume = 0.2;
+        document.addEventListener('click', musicPlay);
+         function musicPlay() {
+        document.getElementById('music').play();
+        document.removeEventListener('click', musicPlay);
+}
     </script>
 </body>
 </html>
